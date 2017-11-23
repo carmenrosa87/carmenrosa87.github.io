@@ -94,8 +94,9 @@ a:hover {
 
 .well {
     border-color: #996699;	
-	color: #996699;
-	font-weight:bold;
+    color: #996699;
+    font-weight:bold;
+   padding-left: 20px;
 }
 
 
