@@ -41,7 +41,7 @@ a:hover {
 /*  ------- código Fábio  ------- */
 	
 	.imgBox1:hover {
-			background-image: BR042.jpg;
+			background-image: url('imgs/BR042.jpg');
 			background-size: cover;
 	}
 		
@@ -50,7 +50,7 @@ a:hover {
 	}
 	
 	.imgBox2:hover {
-		background:CDA_7virtudes-1;
+		background:url('imgs/CDA_7virtudes-1.jpg');
 		background-size: cover;
 	}
 	
@@ -59,7 +59,7 @@ a:hover {
 	}
 	
 	.imgBox3:hover {
-		background:sumpro-170.jpg;
+		background:url("imgs/sumpro-170.jpg");
 		background-size: cover;
 	}
 	
@@ -68,7 +68,7 @@ a:hover {
 	}
 	
 	.imgBox4:hover {
-		background:ykz19c.jpg;
+		background:url('imgs/ykz19c.jpg');
 		background-size: cover;
 	}
 	
