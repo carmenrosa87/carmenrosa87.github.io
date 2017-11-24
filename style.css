@@ -8,13 +8,13 @@
 
 .jumbotron {
 	height: 400px;
-	background-image: pattern1.jpg;
+	background-image: url ('pattern1.jpg');
 	background-repeat: repeat;
 }
 
 .jumbotron2 {
 	height: 50px;
-	background-image: pattern1.jpg;
+	background-image: url ('pattern1.jpg');
 	background-repeat: repeat;
 	margin-top: 30px;
 }
@@ -59,7 +59,7 @@ a:hover {
 	}
 	
 	.imgBox3:hover {
-		background:url("imgs/sumpro-170.jpg");
+		background:url('imgs/sumpro-170.jpg');
 		background-size: cover;
 	}
 	
