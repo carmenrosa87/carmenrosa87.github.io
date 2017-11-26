@@ -108,4 +108,10 @@ a:hover {
 margin-left: 15px;
 }
 
-p {padding-left:20px;}
+p {
+    padding-left:20px;
+   }
+
+form-group {
+    padding-left:20px;
+}
