@@ -86,6 +86,11 @@ a:hover {
       margin: auto;
 }
 
+.carousel-caption {
+	color:black;
+	background-color: rgba(160, 107, 142, 0.4);
+}
+
 
 .well {
     border-color: #996699;	
