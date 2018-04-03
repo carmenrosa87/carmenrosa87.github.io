@@ -8,13 +8,13 @@
 
 .jumbotron {
 	height: 250px;
-	background-image: url('pattern1.jpg');
+	background-image: url(imgs/pattern1.jpg);
 	background-repeat: repeat;
 }
 
 .jumbotron2 {
 	height: 50px;
-	background-image: url('pattern1.jpg');
+	background-image: url(imgs/pattern1.jpg);
 	background-repeat: repeat;
 	margin-top: 30px;
 }
@@ -41,7 +41,7 @@ a:hover {
 /*  ------- código Fábio  ------- */
 	
 	.imgBox1:hover {
-			background-image: url('BR042.jpg');
+			background-image: url('imgs/BR042.jpg');
 			background-size: cover;
 	}
 		
@@ -50,7 +50,7 @@ a:hover {
 	}
 	
 	.imgBox2:hover {
-		background: url('CDA_7virtudes-1.jpg');
+		background:	url('imgs/CDA_7virtudes-1.jpg');
 		background-size: cover;
 	}
 	
@@ -59,7 +59,7 @@ a:hover {
 	}
 	
 	.imgBox3:hover {
-		background: url('sumpro-170.jpg');
+		background:	url("imgs/sumpro-170.jpg");
 		background-size: cover;
 	}
 	
@@ -68,7 +68,7 @@ a:hover {
 	}
 	
 	.imgBox4:hover {
-		background: url('ykz19c.jpg');
+		background:	url('imgs/ykz19c.jpg');
 		background-size: cover;
 	}
 	
@@ -93,10 +93,10 @@ a:hover {
 
 
 .well {
-    border-color: #996699;	
-    color: #996699;
-    font-weight:bold;
-   padding-left: 20px;
+	border-color: #996699;
+	color: #996699;
+	font-weight: bold;
+	padding-left: 20px;
 }
 
 
@@ -108,10 +108,15 @@ a:hover {
 margin-left: 15px;
 }
 
-p {
-    padding-left:20px;
-   }
+.well{
+	padding-left:20px;}
 
-form-group {
-	padding-left:20px;
+.mafalda {
+	alignment-adjust:central;
+	padding:10px;
+}
+
+.contato {
+	padding:10px;
+	text-align:justify;
 }
