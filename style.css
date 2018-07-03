@@ -8,13 +8,13 @@
 
 .jumbotron {
 	height: 250px;
-	background: pattern1.jpg;
+	background:pattern1.jpg;
 	background-repeat: repeat;
 }
 
 .jumbotron2 {
 	height: 50px;
-	background-image: pattern1.jpg;
+	background-image:pattern1.jpg;
 	background-repeat: repeat;
 	margin-top: 30px;
 }
@@ -41,7 +41,7 @@ a:hover {
 /*  ------- código Fábio  ------- */
 	
 	.imgBox1:hover {
-			background-image: BR042.jpg;
+			background-image:BR042.jpg;
 			background-size: cover;
 	}
 		
