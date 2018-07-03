@@ -41,7 +41,7 @@ a:hover {
 /*  ------- código Fábio  ------- */
 	
 	.imgBox1:hover {
-			background-image: imgs/BR042.jpg;
+			background-image: BR042.jpg;
 			background-size: cover;
 	}
 		
@@ -50,7 +50,7 @@ a:hover {
 	}
 	
 	.imgBox2:hover {
-		background:imgs/CDA_7virtudes-1.jpg;
+		background:CDA_7virtudes-1.jpg;
 		background-size: cover;
 	}
 	
