@@ -8,7 +8,7 @@
 
 .jumbotron {
 	height: 250px;
-	background-image: pattern1.jpg;
+	background: pattern1.jpg;
 	background-repeat: repeat;
 }
 
@@ -50,7 +50,7 @@ a:hover {
 	}
 	
 	.imgBox2:hover {
-		background:CDA_7virtudes-1.jpg;
+		background-image:CDA_7virtudes-1.jpg;
 		background-size: cover;
 	}
 	
