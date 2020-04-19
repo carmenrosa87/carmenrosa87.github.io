@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">   
+	  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Carmen Rosa</title>
+   
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	 
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+          <a class="navbar-brand" href="#">C. Rosa</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#tratamento">Tratamento de imagem</a></li>
+            <li><a href="#editorial">Editorial</a></li>
+			<li><a href="#diversos">Diversos</a></li>            
+            <li><a href="#contato">Contato</a></li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+    </div>
+
+    <div class="container">
+      <div class="row">	
+        <div class="row">
+          <div class="well well-sm" id="tratamento">Tratamento de Imagem</div>
+        </div>
+      </div>
+      <div class="row">
+	      <div class="col-md-12">
+	      	<p>Passe o mouse em cima da imagem para ver o antes e depois.</p>
+        </div>	
+      </div>
+      <div class="row">      
+        <div class="col-md-5">          
+          <div class="imgBox1">
+            <img src="BR042b.jpg" class="img-responsive" alt="Montecristo Joalheria" title="Montecristo Joalheria"/>
+          </div>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-5">
+          <div class="imgBox2">
+            <img src="CDA_7virtudes-1b.jpg" class="img-responsive" alt="Chocolat Des Arts" title="Chocolat Des Arts"/>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <table class="table">
+          <thead>
+            <tr>
+            <th>#</th>
+            <th>Cliente</th>
+            <th>Site</th>
+            </tr>
+          </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Joalheria Montecristo</td>
+            <td><a href="https://montecristo.com.br/produto/Brinco-Coral-Gables-Brinco-Coral-Gables" target="new">Brinco Coral Gables - Montecristo</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Chocolat Des Arts</td>
+            <td>Anúncio Páscoa 2013</td>
+          </tr>
+        </tbody>
+        </table>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="imgBox4">
+            <img src="ykz19d.jpg" class="img-responsive" alt="YKZ Promocional" title="YKZ Promocional"/>
+          </div>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-5">
+          <div class="imgBox3">
+            <img src="sumpro-170a.jpg" class="img-responsive" alt="Sumaré Promocional" title="Sumaré Promocional"/>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <table class="table">
+          <thead>
+            <tr>
+            <th></th>
+            <th>Cliente</th>
+            <th>Site</th>
+            </tr>
+          </thead>
+        <tbody>
+          <tr>
+            <th scope="row">3</th>
+            <td>YKZ</td>
+            <td>Foto para anúncio anuário Freeshop Brindes 2013</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Sumpro</td>
+            <td>Foto para catálogo brindes promocionais 2013</td>
+          </tr>
+        </tbody>
+        </table>
+      </div>           
+      <div class="row">
+        <div class="well well-sm" id="editorial">Editorial</div>
+          <div class="col-md-5">
+            <div class="panel panel-default">
+            <div class="panel-heading"><strong>Catálogo Plascony 2013</strong></div>
+            <div class="panel-body">Catálogo 56 páginas, diagramação + tratamento de imagens</div>
+            <div class="panel-body"> <center><a href="Plascony2013_web.pdf" alt="Catálogo Plascony 2013" title="Catálogo Plascony 2013" target="new"><img src="Plascony2013_web-1.jpg" width="200" height="auto" alt="Plascony" title="Plascony"></a></center>
+</div>
+            <div class="panel-body">
+              <a href="Plascony2013_web.pdf" alt="Catálogo Plascony 2013´" title="Catálogo Plascony 2013" target="new">
+              <button type="button" class="btn btn-danger btn-xs">abrir pdf</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-5">
+            <div class="panel panel-default">
+            <div class="panel-heading"><b>Catálogo Chocolat Des Arts</b></div>
+            <div class="panel-body">Catálogo 28 páginas, diagramação + tratamento de imagens</div>
+            <div class="panel-body"> <a href="ChocDesArts_Dezembro12.pdf" alt="Catálogo Chocolat Des Arts" title="Catálogo Chocolat Des Arts" target="new"><center><img src="ChocDesArts_Dezembro12-1.jpg" width="200" height="auto" alt="Chocolat Des Arts" title="Chocolat Des Arts"></center></a> 
+            </div>
+            <div class="panel-body">
+              <a href="ChocDesArts_Dezembro12.pdf" alt="Catálogo Chocolat Des Arts" title="Catálogo Chocolat Des Arts" target="new">
+              <button type="button" class="btn btn-danger btn-xs">abrir pdf</button>
+              </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-5">
+            <div class="panel panel-default">
+            <div class="panel-heading"><strong>Revista Paideia. Ed 1 (2016</strong>)</div>
+            <div class="panel-body">36 páginas. Diagramação</div>
+            <div class="panel-body"><center><a href="Revista_Paideia_2017_web.pdf" alt="Revista Paideia" title="Revista Paideia" target="new"> <img src="Revista_Paideia_2017_web-1.jpg" width="200" height="auto" alt="Paideia" title="Paideia"></a></center></div>
+            <div class="panel-body">
+              <a href="Revista_Paideia_2017_web.pdf" alt="Revista Paideia" title="Revista Paideia" target="new">
+              <button type="button" class="btn btn-danger btn-xs">abrir pdf</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-5">
+            <div class="panel panel-default">
+            <div class="panel-heading"><strong>Folder "Histórias que o vento traz". Cia Paideia de Teatro</strong></div>
+            <div class="panel-body">3 dobras. 8 faces</div>
+            <div class="panel-body"><center><a href="programa_HISTORIAS_2017_alta.pdf" alt="Folder - Histórias que o vento traz" title="Folder - Histórias que o vento traz" target="new"><img src="programa_HISTORIAS_2017_alta-1.jpg" width="200" height="auto" alt="Paideia" title="Paideia"></a></center></div>
+            <div class="panel-body">
+              <a href="programa_HISTORIAS_2017_alta.pdf" alt="Folder - Histórias que o vento traz" title="Folder - Histórias que o vento traz" target="new">
+              <button type="button" class="btn btn-danger btn-xs">abrir pdf</button></a>
+              </div>
+            </div>
+          </div>
+      </div>            
+      <div class="row">
+        <div class="well well-sm" id="diversos">Diversos</div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators" style="background-color:#996699" >
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1" ></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
+              <li data-target="#myCarousel" data-slide-to="6"></li>
+              <li data-target="#myCarousel" data-slide-to="7"></li>
+              <li data-target="#myCarousel" data-slide-to="8"></li>
+              <li data-target="#myCarousel" data-slide-to="9"></li>
+              <li data-target="#myCarousel" data-slide-to="10"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="b20b01_6810de07a95c421d950bf253d5eebcae-mv2.jpg" alt="Iraê" title="Iraê" width="460" height="345">
+            </div>
+        
+              <div class="item">
+                <img src="b20b01_06ac4e9b0fdf4f9091b56032f0542272-mv2.jpg" alt="Iraê" title="Iraê" width="460" height="345">
+              </div>
+        
+              <div class="item">
+                <img src="b20b01_7015341ef9d8452cbcd5a73132b4029f-mv2.jpg" alt="EFF" title="EFF" width="460" height="345">
+              </div>
+                  
+              <div class="item">
+                <img src="ads-plasco-(1).jpg" alt="Plascony" title="Plascony" width="460" height="345">
+              </div>
+              
+               <div class="item">
+                <img src="ads-plasco-(2).jpg" alt="Plascony" title="Plascony" width="460" height="345">
+              </div>
+              
+              <div class="item">
+                <img src="arte-copa3-(1).jpg" alt="Plascony" title="Plascony" width="460" height="345">
+              
+              </div>
+              
+              <div class="item">
+                <img src="placony_jogo.jpg" alt="Plascony" title="Plascony" width="460" height="345">
+                    
+              </div>
+
+              <div class="item">
+                <img src="PastaL_Copa.jpg" alt="Plascony" title="Plascony" width="460" height="345">
+              </div>
+              
+               <div class="item">
+                <img src="PastaL_Copa_d1.jpg" alt="Plascony" title="Plascony" width="460" height="345">
+              </div>
+              
+              <div class="item">
+                <img src="wobbler.jpg" alt="Plascony" title="Plascony" width="460" height="345">
+              </div> 
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only" >Next</span>
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1">
+        </div>
+      </div>
+     </br>  
+
+      <div class="row">
+        <div class="well well-sm" id="editorial">Contato</div>
+          <div class="col-md-12">
+            <div class="row">
+            	<p class="contato">Desde pequena gostava de criar minhas histórias e minhas músicas, e isso nunca me abandonou e me motivou na decisão de que caminho seguir.
+        E hoje não saio de casa sem caderno e caneta na bolsa, a gente nunca sabe quando a inspiração vai vir.</p>
+        		<p class="contato"><strong>carmenrosa87@gmail.com</strong></p></div>
+            </div>
+          <center><div class="col-md-12">
+            <img src="mafalda.jpg" width="auto" class="img-responsive mafalda" alt="Mafalda - Quino" title="Mafalda - Quino">  <button data-toggle="collapse" data-target="#demo">Curriculo</button>
+              <div id="demo" class="collapse">            
+                </br>
+                <img src="curriculo_CR_2019.jpg" class="img-responsive" alt="curriculo" title="curriculo" width="750">
+			  </div>
+            </div></center>
+          </div>        
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     </div>
+
+    <div class="jumbotron2">
+    </div>    
+  </body>
+</html>
